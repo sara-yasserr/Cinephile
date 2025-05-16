@@ -1,0 +1,6 @@
+@LetterboxdProject_HostAddress = http://localhost:5002
+
+GET {{LetterboxdProject_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
