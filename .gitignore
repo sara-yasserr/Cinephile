@@ -11,6 +11,8 @@
 *.ngsummary.json
 
 # ----- Backend (.NET) ----- #
+[Bb]in/
+[Oo]bj/
 /bin/
 /obj/
 /.vs/
