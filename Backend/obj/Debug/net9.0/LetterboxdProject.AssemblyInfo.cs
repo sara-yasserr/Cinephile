@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LetterboxdProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8845309581f99985fbb1a0d0a92fbf0571a4a3db")]
 [assembly: System.Reflection.AssemblyProductAttribute("LetterboxdProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LetterboxdProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

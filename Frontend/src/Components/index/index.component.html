@@ -1,0 +1,327 @@
+
+<div class="main clearfix position-relative">
+ <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" style="display: none; top:0;" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content bg-transparent border-0">
+			  <div class="modal-header border-0">
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+			  </div>
+			  <div class="modal-body p-0">
+				<div class="search_1">
+				   <div class="input-group">
+				<input type="text" class="form-control bg-white border-0" placeholder="Search...">
+				<span class="input-group-btn">
+					<button class="btn btn-primary bg_oran border_1 rounded-0 p-3 px-4" type="button">
+						<i class="fa fa-search"></i></button>
+				</span>
+		</div>
+	            </div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+ <div class="main_1 clearfix position-absolute top-0 w-100">
+   <section id="header">
+<nav class="navbar navbar-expand-md navbar-light px_4" id="navbar_sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand  p-0 fw-bold text-white" routerLink="/index"><i class="fa fa-modx col_oran"></i> Cinephile. </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto">
+	    
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/index">Home</a>
+        </li>
+		 
+
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/login"><i class="fa fa-chevron-right font_12 me-1"></i> Login</a></li>
+            <li><a class="dropdown-item" routerLink="/register"><i class="fa fa-chevron-right font_12 me-1"></i> Register</a></li>
+          </ul>
+        </li>
+<!-- 			
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li> -->
+      </ul>
+      <ul class="navbar-nav mb-0 ms-auto">
+	       <li class="nav-item">
+          <a class="nav-link fs-5 drop_icon" data-bs-target="#exampleModal2" data-bs-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+        </li>
+		    <li class="nav-item">
+          <!-- <a class="nav-link fs-5 drop_icon" href="#"><i class="fa fa-user"></i></a> -->
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+ </div>
+ <div class="main_2 clearfix">
+   <section id="center" class="center_home">
+ <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="" aria-current="true"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 6"></button> -->
+    <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 7"></button> -->
+    <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 8"></button> -->
+    <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button> -->
+
+  </div>
+
+
+<div class="carousel-inner">
+    <div *ngFor="let movie of movies; let i = index" 
+         class="carousel-item" 
+         [class.active]="i === 0">
+      <img [src]="domainUrl+ movie.backgroundPath" class="d-block w-100" [alt]="movie.title">
+      <div class="carousel-caption d-md-block">
+          <h3 class="col_oran">{{ movie.genres[0] }}</h3>
+          <h1 class="text-white mt-3">{{ movie.title }}</h1>
+          <p class="mt-3 text-light w-75">{{ movie.description }}</p>
+          <ul class="mb-0 mt-4">
+            <li class="d-inline-block"><a class="button" [routerLink]="['/details', movie.id]"><i class="fa fa-check-circle me-1 font_14"></i> More Info</a></li>
+            <li class="d-inline-block ms-2"><a class="button_1" [routerLink]="['/details', movie.id]"><i class="fa fa-check-circle me-1 font_14"></i> Get Ticket</a></li>
+          </ul>
+      </div>
+    </div>
+</div>
+
+
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+ </div>
+ 
+</div>
+
+<div class="border_dashed">
+
+</div>
+
+<section id="join" class="px_4 p_3">
+ <div class="container-fluid">
+   <div class="row join_1">
+     <div class="col-md-4">
+	   <div class="join_1l position-relative">
+	     <div class="join_1li">
+	      <img src="img/4.jpg" class="w-100" alt="abc">
+	   </div>
+	     <div class="join_1li1 p-4 bg_backo position-absolute w-100 h-100 top-0">
+		   <div class="join_1li1n row">
+		     <div class="col-md-8">
+			   <div class="join_1li1l">
+			      <h6 class="text-light">Join Now</h6>
+		   <h3 class="mb-0 text-white">Upcoming <br>
+Film Festivals</h3>
+			   </div>
+			 </div>
+			 <div class="col-md-4">
+			   <div class="join_1li1r">
+			     <span class="d-inline-block bg_oran text-white rounded-circle text-center font_50"><i class="fa fa-video-camera"></i></span>
+			   </div>
+			 </div>
+		   </div>
+	    </div>
+	   </div>
+	 </div>
+	 <div class="col-md-4">
+	   <div class="join_1l position-relative">
+	     <div class="join_1li">
+	      <img src="img/4.jpg" class="w-100" alt="abc">
+	   </div>
+	     <div class="join_1li1 p-4 bg_backo position-absolute w-100 h-100 top-0">
+		    <div class="join_1li1n row">
+		     <div class="col-md-8">
+			   <div class="join_1li1l">
+			     <h6 class="text-light">Watch Now</h6>
+		   <h3 class="mb-0 text-white">Watch Film
+ <br>
+Awards</h3>
+			   </div>
+			 </div>
+			 <div class="col-md-4">
+			   <div class="join_1li1r">
+			     <span class="d-inline-block bg_oran text-white rounded-circle text-center font_50"><i class="fa fa-film"></i></span>
+			   </div>
+			 </div>
+		   </div>
+	    </div>
+	   </div>
+	 </div>
+	 <div class="col-md-4">
+	   <div class="join_1l position-relative">
+	     <div class="join_1li">
+	      <img src="img/4.jpg" class="w-100" alt="abc">
+	   </div>
+	     <div class="join_1li1 p-4 bg_backo position-absolute w-100 h-100 top-0">
+		   <div class="join_1li1n row">
+		     <div class="col-md-8">
+			   <div class="join_1li1l">
+			   <h6 class="text-light" >Get Ticket</h6>
+		   <h3 class="mb-0 text-white">Comedy TV
+ <br>
+Shows</h3>
+			   </div>
+			 </div>
+			 <div class="col-md-4">
+			   <div class="join_1li1r">
+			     <span class="d-inline-block bg_oran text-white rounded-circle text-center font_50"><i class="fa fa-microphone"></i></span>
+			   </div>
+			 </div>
+		   </div>
+	    </div>
+	   </div>
+	 </div>
+   </div>
+ </div>
+</section>
+
+<section id="trend" class="p_3 pt-0">
+ <div class="container-xl">
+   <div class="row trend_1 text-center mb-4">
+      <div class="col-md-12">
+	    <span class="fa fa-film col_oran"></span>
+		<h6 class="text-muted mt-3">Watch New Movies</h6>
+		<h1 class="mb-0 font_50">Movies Now Playing</h1>
+	  </div>
+   </div>
+   <div class="row trend_2">
+
+  
+	  <div class="col-md-3 col-sm-6" *ngFor="let movie of movies">
+  <div class="trend_2i position-relative">
+    <div class="trend_2i1">
+      <img [src]="domainUrl + movie.posterPath" class="w-100" [alt]="movie.title">
+    </div>
+    <div class="trend_2i2 bg_back position-absolute w-100 h-100 top-0 px-4">
+      <h6 class="font_14 text-light">
+        {{ movie.genres[0] }} / {{ movie.runtime }} Mins
+      </h6>
+      <h5>
+        <a class="text-white a_tag" [routerLink]="['/details', movie.id]">
+          {{ movie.title }}
+        </a>
+      </h5>
+      <h6 class="mb-0 mt-3">
+        <a class="button_1 p-2 px-3 font_14" [routerLink]="['/details', movie.id]">
+          Get Ticket
+        </a>
+      </h6>
+    </div>
+  </div>
+</div>
+
+
+   </div>
+ </div>
+</section>
+
+
+<section id="footer_t">
+ <div class="container-fluid">
+    <div class="footer_t1 row">
+	  <div class="col-md-4 p-0">
+	   <div class="footer_ti position-relative">
+	     <div class="footer_ti1">
+		   <div class="grid clearfix">
+		  <figure class="effect-jazz mb-0">
+			<a href="#"><img src="img/12.jpg" class="w-100" alt="img25"></a>
+		  </figure>
+	  </div>
+		 </div>
+		 <div class="footer_ti2 bg_back pt-5 text-center px-4 position-absolute w-100 h-100 top-0">
+		   <span class="d-inline-block bg-white rounded-circle col_oran fs-1"><i class="fa fa-youtube-play"></i></span>
+		   <h2 class="mb-0 text-white mt-3">Top 5 Movies in Theaters</h2>
+		 </div>
+	   </div>
+	  </div>
+	  <div class="col-md-4 p-0">
+	   <div class="footer_ti position-relative">
+	     <div class="footer_ti1">
+		   <div class="grid clearfix">
+		  <figure class="effect-jazz mb-0">
+			<a href="#"><img src="img/13.jpg" class="w-100" alt="img25"></a>
+		  </figure>
+	  </div>
+		 </div>
+		 <div class="footer_ti2 bg_backn1 pt-5 text-center px-4 position-absolute w-100 h-100 top-0">
+		   <span class="d-inline-block bg-white rounded-circle col_oran fs-2"><i class="fa fa-film"></i></span>
+		   <h2 class="mb-0 text-white mt-3">Watch Coming Soon Movies</h2>
+		 </div>
+	   </div>
+	  </div>
+	  <div class="col-md-4 p-0">
+	   <div class="footer_ti position-relative">
+	     <div class="footer_ti1">
+		   <div class="grid clearfix">
+		  <figure class="effect-jazz mb-0">
+			<a href="#"><img src="img/14.jpg" class="w-100" alt="img25"></a>
+		  </figure>
+	  </div>
+		 </div>
+		 <div class="footer_ti2 bg_back pt-5 text-center px-4 position-absolute w-100 h-100 top-0">
+		   <span class="d-inline-block bg-white rounded-circle col_oran fs-1"><i class="fa fa-video-camera"></i></span>
+		   <h2 class="mb-0 text-white mt-3"> Hot Movies Trailers Live Now</h2>
+		 </div>
+	   </div>
+	  </div>
+	</div>
+ </div>
+</section>
+
+
+<!-- Video Modal -->
+		<div class="modal fade" id="templateVideoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg modal-dialog-centered">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h2 class="modal-title" id="videoModalLabel">  Video</h2>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+					<!-- YouTube Embed -->
+						<div class="ratio ratio-16x9">
+							<iframe id="youtubeVideo" src="" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" loading="lazy" allowfullscreen></iframe>
+						</div>
+					
+					
+			  </div>
+			  
+			</div>
+		  </div>
+		</div>		
+		<!-- JavaScript to pause the video when modal is closed -->
+		<script>
+		 var templateVideoModal = document.getElementById('templateVideoModal');
+		  templateVideoModal.addEventListener('hide.bs.modal', function () {
+			var iframe = document.getElementById('youtubeVideo');
+			iframe.src = ''; 
+		  });
+		
+		  templateVideoModal.addEventListener('show.bs.modal', function () {
+			var iframe = document.getElementById('youtubeVideo');
+			iframe.src = 'https://www.youtube.com/embed/xHYMdZvV1f0?autoplay=1'; 
+		  });
+</script>
+
+<script src="js/common.js"></script>
+

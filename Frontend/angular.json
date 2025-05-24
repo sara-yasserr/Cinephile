@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AICodeReviewer-Frontend": {
+    "Cinephile": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/aicode-reviewer-frontend",
+            "outputPath": "dist/cinephile",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -27,9 +27,22 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "public/css/bootstrap.min.css",
+              "public/css/font-awesome.min.css",
+              "public/css/index.css",
+              "public/css/global.css",
+              "src/styles.css",
+              "public/css/about.css",
+              "public/css/list.css",
+              "public/css/faq.css",
+              "public/css/blog.css"
+         
             ],
-            "scripts": []
+            "scripts": [
+               "public/js/jquery-3.7.1.min.js",
+              "public/js/bootstrap.bundle.min.js",
+              "public/js/common.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -59,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "AICodeReviewer-Frontend:build:production"
+              "buildTarget": "Cinephile:build:production"
             },
             "development": {
-              "buildTarget": "AICodeReviewer-Frontend:build:development"
+              "buildTarget": "Cinephile:build:development"
             }
           },
           "defaultConfiguration": "development"

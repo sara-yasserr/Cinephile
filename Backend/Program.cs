@@ -1,13 +1,13 @@
-
-using System;
 using System.Text;
-using LetterboxdProject.MapperConfig;
-using LetterboxdProject.Models;
-using LetterboxdProject.UnitsOfWork;
+using CinephileProject.MapperConfig;
+using CinephileProject.Models;
+using CinephileProject.Services;
+using CinephileProject.UnitsOfWork;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 
-namespace LetterboxdProject
+namespace CinephileProject
 {
     public class Program
     {
@@ -17,7 +17,7 @@ namespace LetterboxdProject
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddDbContext<AppDbContext>(op => op.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("LetterboxdDb")));
+            builder.Services.AddDbContext<AppDbContext>(op => op.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("Db")));
             builder.Services.AddAutoMapper(typeof(mappConfig));
             builder.Services.AddControllers();
             //builder.Services.AddScoped<DbContext, AppDbContext>();
@@ -49,6 +49,7 @@ namespace LetterboxdProject
                 });
             });
             builder.Services.AddScoped<unitOfWork>();
+            builder.Services.AddScoped<MovieService>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -60,8 +61,8 @@ namespace LetterboxdProject
             app.UseCors(data);
             app.UseHttpsRedirection();
             app.UseAuthorization();
-
-
+            app.UseStaticFiles();
+            app.UseRouting();
             app.MapControllers();
 
             app.Run();

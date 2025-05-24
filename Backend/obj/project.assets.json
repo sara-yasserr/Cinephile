@@ -4652,11 +4652,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\LetterboxdProject\\LetterboxdProject.csproj",
-      "projectName": "LetterboxdProject",
-      "projectPath": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\LetterboxdProject\\LetterboxdProject.csproj",
+      "projectUniqueName": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\CinephileProject.csproj",
+      "projectName": "CinephileProject",
+      "projectPath": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\CinephileProject.csproj",
       "packagesPath": "C:\\Users\\Al-Ahram\\.nuget\\packages\\",
-      "outputPath": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\LetterboxdProject\\obj\\",
+      "outputPath": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",

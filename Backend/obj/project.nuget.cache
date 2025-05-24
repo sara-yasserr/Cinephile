@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aSiU2RB+gl0=",
+  "dgSpecHash": "h/N811Ps9vI=",
   "success": true,
-  "projectFilePath": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\LetterboxdProject\\LetterboxdProject.csproj",
+  "projectFilePath": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\CinephileProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Al-Ahram\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

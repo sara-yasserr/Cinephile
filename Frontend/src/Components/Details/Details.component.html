@@ -1,0 +1,217 @@
+
+
+<div class="main_o main">
+ <div class="main_o1" style="background-image: url('img/register_bg.jpg');">
+   <section id="header">
+<nav class="navbar navbar-expand-md navbar-light px_4" id="navbar_sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand  p-0 fw-bold text-white" routerLink="/index"><i class="fa fa-modx col_oran"></i> Cinephile.</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto">
+	    
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink ='/index' >Home</a>
+        </li>
+
+		<li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/details', movie?.id]" role="button">Movies</a>
+        </li>
+
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+		    <!-- <li><a class="dropdown-item" href="faq.html"><i class="fa fa-chevron-right font_12 me-1"></i> Faqs</a></li> -->
+            <li><a class="dropdown-item" routerLink="/login"><i class="fa fa-chevron-right font_12 me-1"></i> Login</a></li>
+            <li><a class="dropdown-item" routerLink="/register"><i class="fa fa-chevron-right font_12 me-1"></i> Register</a></li>
+			<!-- <li><a class="dropdown-item border-0" href="ticket.html"><i class="fa fa-chevron-right font_12 me-1"></i> Ticket</a></li> -->
+          </ul>
+        </li>
+			
+      </ul>
+      <ul class="navbar-nav mb-0 ms-auto">
+	       <li class="nav-item">
+          <a class="nav-link fs-5 drop_icon" data-bs-target="#exampleModal2" data-bs-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+        </li>
+		    <li class="nav-item">
+          <a class="nav-link fs-5 drop_icon" href="#"><i class="fa fa-user"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</section>
+   <section id="center" class="centre_o  pt-5 pb-5">
+ <div class="container-xl">
+  <div class="row centre_o1 text-center">
+    <div class="col-md-12">
+      <h1 class="text-white font_60">Movie Details</h1>
+	  <h5 class="mb-0 mt-3 fw-normal col_oran"><a class="text-light" href="#">Home</a> <span class="mx-2 text-muted">/</span> Movie Details</h5>
+   </div>
+  </div>
+ </div>
+</section>
+ </div>
+</div>
+
+<div class="border_dashed">
+
+</div>
+<!--  -->
+<section id="detail" class="p_3">
+ <div class="container-xl">
+    <div class="detail_1 row">
+	  <div class="col-md-6">
+	    <div class="detail_1l">
+		  <h2>{{movie?.title}}</h2>
+		  <h6 class="mb-0 text-muted">{{movie?.genres}} / {{movie?.runtime}} Mins</h6>
+		</div>
+	  </div>
+	  <!-- <div class="col-md-6">
+	    <div class="detail_1r text-end">
+		  <h6 class="mb-0"><a class="button_2" href="#">Get Ticket</a></h6>
+		</div>
+	  </div> -->
+	</div>
+	<div class="detail_2 row mt-4">
+	  <div class="col-md-4">
+	    <div class="detail_2l">
+	      <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img [src]="domainUrl+ movie?.posterPath" height="530" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+		</div>
+	  </div>
+	  <div class="col-md-8">
+	    <div class="detail_2r  position-relative">
+	       <div class="detail_2ri">
+		      <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img [src]="domainUrl+ movie?.backgroundPath" height="530" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+		   </div>
+<div class="detail_2ri1 position-absolute top-0 text-center bg_back w-100 h-100">
+  <span class="lh-1">
+    <a class="col_oran"  data-bs-toggle="modal" data-bs-target="#templateVideoModal" style="cursor: pointer;">
+      <i class="fa fa-play-circle align-middle"></i>
+    </a>
+  </span>
+  <h4 class="mb-0 mt-3">
+    <a class="text-white"  data-bs-toggle="modal" data-bs-target="#templateVideoModal" style="cursor: pointer;">
+      Watch the Trailer
+    </a>
+  </h4>
+</div>
+		</div>
+	  </div>
+	</div>
+	<div class="detail_3 row mt-4">
+	  <div class="col-md-4">
+	    <div class="detail_3l">
+	       <h6 class="mb-3 "><span class="fw-bold text-black me-4">Director:</span>
+{{movie?.director}}</h6>
+<h6 class="mb-3"><span class="fw-bold text-black me-4">Language:</span>
+{{movie?.language}} </h6>
+		</div>
+	  </div>
+	  <div class="col-md-4">
+	    <div class="detail_3l">
+	       <h6 class="mb-3 "><span class="fw-bold text-black me-4">Release:</span>
+{{movie?.releaseYear}}</h6>
+ <h6 class="mb-3"><span class="fw-bold text-black me-4">Time:</span>
+{{movie?.runtime}} Mins</h6>
+		</div>
+	  </div>
+	  <div class="col-md-4">
+	    <div class="detail_3l">
+	    
+		</div>
+	  </div>
+	</div><hr>
+	
+	<div class="detail_4 row mt-4">
+	 <div class="col-md-12">
+	   <h3>Story Line</h3>
+	   <p class="mt-3">In a small town where everyone knows everyone, a peculiar incident starts a chain of events that leads to a child’s disappearance, which begins to tear at the fabric of an otherwise-peaceful community. Dark government agencies and seemingly malevolent supernatural forces converge on the town, while a few of the locals begin to understand that more is going on than meets the eye.</p>
+	   <div class="detail_4 row">
+	  <div class="col-md-12">
+<hr>
+      <div class="detail_4 row mt-4">
+	 <div class="col-md-12">
+	   <h3>Showtimes</h3>
+	   </div></div>
+<div style="display: flex; gap: 10px; padding: 5px;" >
+<div class="card cardouter col-4" *ngFor="let item of showtimes" >
+  <div class="card-header">
+      <h5 class="card-title">{{ item.screenType }}</h5>
+  </div> 
+    <div class="card-body">
+      <p class="card-text">
+        {{ item.startTime | date:'mediumDate' }} at {{ item.startTime | date:'shortTime' }}
+      </p>
+	    <div class="detail_1r text-end" style="display: flex;justify-content: center;">
+		  <h6 class="mb-0"><a class="button_2" [routerLink]="['/tickets', item.Id]">Get Ticket</a></h6>
+	  </div>
+
+   
+  </div>
+   <div class="card-footer" style="color:#d96c2c ;">
+      {{ item.availableSeats }} seats available
+    </div>
+</div>	
+  <!-- <div class="alert alert-info mt-3">
+    No showtimes available
+  </div> -->
+
+
+</div>
+    </div>
+  </div>
+
+	 </div>
+	</div>
+ </div>
+</section>
+
+
+<!-- Video Modal -->
+<div class="modal fade" id="templateVideoModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">{{movie?.title}} Trailer</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9">
+          <iframe 
+            id="youtubeVideo"
+            src=""
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// Wait for jQuery and DOM to be ready
+$(document).ready(function() {
+  // Initialize modal events
+ 
+});
+</script>
+<script src="js/common.js"></script>
+<!-- </body>
+
+
+</html> -->

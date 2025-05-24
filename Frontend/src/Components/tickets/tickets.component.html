@@ -1,0 +1,90 @@
+
+
+<div class="main_o main">
+ <div class="main_o1 " style="background-image: url('img/register_bg.jpg');">
+   <section id="header">
+<nav class="navbar navbar-expand-md navbar-light px_4" id="navbar_sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand  p-0 fw-bold text-white" routerLink="/index"><i class="fa fa-modx col_oran"></i> Cinephile. </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto">
+	    
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" routerLink="/index">Home</a>
+        </li>
+		 <li class="nav-item ">
+          <a class="nav-link active " aria-current="page" routerLink="/tickets">Tickets</a>
+        </li>
+		
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" routerLink="/login"><i class="fa fa-chevron-right font_12 me-1"></i> Login</a></li>
+            <li><a class="dropdown-item" routerLink="/register"><i class="fa fa-chevron-right font_12 me-1"></i> Register</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav mb-0 ms-auto">
+	       <li class="nav-item">
+          <a class="nav-link fs-5 drop_icon" data-bs-target="#exampleModal2" data-bs-toggle="modal" href="#"><i class="fa fa-search"></i></a>
+        </li>
+		   
+      </ul>
+
+    </div>
+  </div>
+</nav>
+</section>
+   <section id="center" class="centre_o  pt-5 pb-5">
+ <div class="container-xl">
+  <div class="row centre_o1 text-center">
+    <div class="col-md-12">
+      <h1 class="text-white font_60">Ticket</h1>
+	  <h5 class="mb-0 mt-3 fw-normal col_oran"><a class="text-light" href="#">Home</a> <span class="mx-2 text-muted">/</span> Ticket</h5>
+   </div>
+  </div>
+ </div>
+</section>
+ </div>
+</div>
+
+<div class="border_dashed">
+
+</div>
+
+ <div style="display: flex;gap: 50px; padding: 100px 10px; justify-content: center;">
+	<div class="col-md-3" *ngFor="let item of tickets" >
+	 <div class="price_1i1">
+	  <div class="price_1i1i bg-black p-4">
+	    <h3 class="text-white">{{item.type}}</h3>
+	  </div>
+	  <div class="price_1i1i1 p-4 bg-dark pt-3 pb-3">
+	    <h1 class="font_60 text-white mb-0">LE{{item.ticketPrice}}<span class="fs-6">/Seat</span></h1>
+	  </div>
+	  <div class="price_1i1i2 p-4 bg-black">
+		<h6 class="mb-0 mt-4">
+  <a class="button text-center d-block" 
+     (click)="proceedToPayment(item.id)" 
+     *ngIf="!isProcessing">
+     Proceed to Payment
+  </a>
+  <div *ngIf="isProcessing" class="text-center">
+    <div class="spinner-border spinner-border-sm" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    Processing...
+  </div>
+</h6>
+	  </div>
+	 </div>
+	</div>
+</div>
+
+<script src="js/common.js"></script>

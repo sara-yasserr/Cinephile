@@ -1,12 +1,1361 @@
 {
   "Version": 1,
-  "Hash": "e7fjYtEhysS4qh1m9jjJA5aXRMwt5mrSKVTZYWQ2qVU=",
-  "Source": "LetterboxdProject",
-  "BasePath": "_content/LetterboxdProject",
+  "Hash": "KmoW2PrOd5fF5SFATelUN2vY3FOUPxd1si0c4thlQsU=",
+  "Source": "CinephileProject",
+  "BasePath": "_content/CinephileProject",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "CinephileProject\\wwwroot",
+      "Source": "CinephileProject",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\a-separation.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/backgrounds/a-separation#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8koiw5re92",
+      "Integrity": "2NB1SmR4bzF4d9fN+GrkrC0iCyE5weGdOYlWyhbmuA4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgrounds\\a-separation.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\atonement.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/backgrounds/atonement#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "efxpnzkuk5",
+      "Integrity": "hudqZdSdbUXOhBq1YL5D6h8JH03hx4fyJn+OObNfg1o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgrounds\\atonement.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\before_sunrise.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/backgrounds/before_sunrise#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "obcgt2zofv",
+      "Integrity": "nKhnO3ybTNmYLk8uRb1UVQiF6KayA2qjVAo10HzhUGU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgrounds\\before_sunrise.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\beforeeee.webp",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/backgrounds/beforeeee#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ue29yh2b6r",
+      "Integrity": "imWgRQonKBvXc29bF3VVsruWWsh2Xylmv8Mc0XjXE64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgrounds\\beforeeee.webp"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\GoodbyeJulia.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/backgrounds/GoodbyeJulia#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uax1l8auz6",
+      "Integrity": "1tO9ZynI5eRS+f7yDRJS2KDeSB2VNynkJK482rgPKZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgrounds\\GoodbyeJulia.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\lalaland.webp",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/backgrounds/lalaland#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jrzb19appe",
+      "Integrity": "MTHCohcEb2vDOVg7QCRytdGysEG6i/U9j/Qr97JVkec=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgrounds\\lalaland.webp"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\One_20million_20yen_20girl-1200-1200-675-675-crop-000000.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/backgrounds/One_20million_20yen_20girl-1200-1200-675-675-crop-000000#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a2qktw20s5",
+      "Integrity": "8p1ID0BHDlkAnWonOueMyE0mnZLg1mH5gKLo5tjglUI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\backgrounds\\One_20million_20yen_20girl-1200-1200-675-675-crop-000000.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\54236-one-million-yen-girl-0-2000-0-3000-crop.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/posters/54236-one-million-yen-girl-0-2000-0-3000-crop#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j3e0ugh1b1",
+      "Integrity": "X7U40kAE6YUhnNO6PMJiD/s2IfHi8mbc/4ybLPUuLGE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\posters\\54236-one-million-yen-girl-0-2000-0-3000-crop.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\a-separation.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/posters/a-separation#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3iciqonpj9",
+      "Integrity": "y3l8KX8FCWNyShBkfuaVGkz6N+lmirHg0ib9YUlYU4U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\posters\\a-separation.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\atonment.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/posters/atonment#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lq121zn8bj",
+      "Integrity": "sw0t6b1wuCCgTbBWVnB6PU5ygYkNvRNImI5hTUlSD78=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\posters\\atonment.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\before-sunrise.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/posters/before-sunrise#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9liqqk32ki",
+      "Integrity": "nbpHsJmqQLFVFPmrrxVAa+jcnk84jt8kGeluyFx+AuI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\posters\\before-sunrise.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\goodbye-julia.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/posters/goodbye-julia#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "id1ujmpjm0",
+      "Integrity": "ikIs7xp3czPKRJM4eM9o9CmnACSTcpiBLPSHi/YE/xg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\posters\\goodbye-julia.jpg"
+    },
+    {
+      "Identity": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\la-la-land.jpg",
+      "SourceId": "CinephileProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\",
+      "BasePath": "_content/CinephileProject",
+      "RelativePath": "images/posters/la-la-land#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5zw2jgvcjm",
+      "Integrity": "cTY8thHwN8N5Ma1M+vcRd3XFV3g1GwLXs6f6bkA45V4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\posters\\la-la-land.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/backgrounds/a-separation.8koiw5re92.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\a-separation.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NB1SmR4bzF4d9fN+GrkrC0iCyE5weGdOYlWyhbmuA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:37:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8koiw5re92"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgrounds/a-separation.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NB1SmR4bzF4d9fN+GrkrC0iCyE5weGdOYlWyhbmuA4="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/a-separation.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\a-separation.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "91712"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2NB1SmR4bzF4d9fN+GrkrC0iCyE5weGdOYlWyhbmuA4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:37:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2NB1SmR4bzF4d9fN+GrkrC0iCyE5weGdOYlWyhbmuA4="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/atonement.efxpnzkuk5.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\atonement.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hudqZdSdbUXOhBq1YL5D6h8JH03hx4fyJn+OObNfg1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "efxpnzkuk5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgrounds/atonement.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hudqZdSdbUXOhBq1YL5D6h8JH03hx4fyJn+OObNfg1o="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/atonement.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\atonement.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "151322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hudqZdSdbUXOhBq1YL5D6h8JH03hx4fyJn+OObNfg1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:14:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hudqZdSdbUXOhBq1YL5D6h8JH03hx4fyJn+OObNfg1o="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/before_sunrise.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\before_sunrise.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nKhnO3ybTNmYLk8uRb1UVQiF6KayA2qjVAo10HzhUGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:51:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nKhnO3ybTNmYLk8uRb1UVQiF6KayA2qjVAo10HzhUGU="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/before_sunrise.obcgt2zofv.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\before_sunrise.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39694"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nKhnO3ybTNmYLk8uRb1UVQiF6KayA2qjVAo10HzhUGU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:51:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obcgt2zofv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgrounds/before_sunrise.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nKhnO3ybTNmYLk8uRb1UVQiF6KayA2qjVAo10HzhUGU="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/beforeeee.ue29yh2b6r.webp",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\beforeeee.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"imWgRQonKBvXc29bF3VVsruWWsh2Xylmv8Mc0XjXE64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ue29yh2b6r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgrounds/beforeeee.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-imWgRQonKBvXc29bF3VVsruWWsh2Xylmv8Mc0XjXE64="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/beforeeee.webp",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\beforeeee.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "65286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"imWgRQonKBvXc29bF3VVsruWWsh2Xylmv8Mc0XjXE64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:59:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-imWgRQonKBvXc29bF3VVsruWWsh2Xylmv8Mc0XjXE64="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/GoodbyeJulia.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\GoodbyeJulia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1tO9ZynI5eRS+f7yDRJS2KDeSB2VNynkJK482rgPKZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:49:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1tO9ZynI5eRS+f7yDRJS2KDeSB2VNynkJK482rgPKZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/GoodbyeJulia.uax1l8auz6.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\GoodbyeJulia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152851"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1tO9ZynI5eRS+f7yDRJS2KDeSB2VNynkJK482rgPKZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:49:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uax1l8auz6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgrounds/GoodbyeJulia.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1tO9ZynI5eRS+f7yDRJS2KDeSB2VNynkJK482rgPKZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/lalaland.jrzb19appe.webp",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\lalaland.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTHCohcEb2vDOVg7QCRytdGysEG6i/U9j/Qr97JVkec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jrzb19appe"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgrounds/lalaland.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTHCohcEb2vDOVg7QCRytdGysEG6i/U9j/Qr97JVkec="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/lalaland.webp",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\lalaland.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56006"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MTHCohcEb2vDOVg7QCRytdGysEG6i/U9j/Qr97JVkec=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:28:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MTHCohcEb2vDOVg7QCRytdGysEG6i/U9j/Qr97JVkec="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/One_20million_20yen_20girl-1200-1200-675-675-crop-000000.a2qktw20s5.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\One_20million_20yen_20girl-1200-1200-675-675-crop-000000.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8p1ID0BHDlkAnWonOueMyE0mnZLg1mH5gKLo5tjglUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 07:46:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a2qktw20s5"
+        },
+        {
+          "Name": "label",
+          "Value": "images/backgrounds/One_20million_20yen_20girl-1200-1200-675-675-crop-000000.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8p1ID0BHDlkAnWonOueMyE0mnZLg1mH5gKLo5tjglUI="
+        }
+      ]
+    },
+    {
+      "Route": "images/backgrounds/One_20million_20yen_20girl-1200-1200-675-675-crop-000000.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\backgrounds\\One_20million_20yen_20girl-1200-1200-675-675-crop-000000.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50598"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8p1ID0BHDlkAnWonOueMyE0mnZLg1mH5gKLo5tjglUI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 07:46:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8p1ID0BHDlkAnWonOueMyE0mnZLg1mH5gKLo5tjglUI="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/54236-one-million-yen-girl-0-2000-0-3000-crop.j3e0ugh1b1.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\54236-one-million-yen-girl-0-2000-0-3000-crop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X7U40kAE6YUhnNO6PMJiD/s2IfHi8mbc/4ybLPUuLGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 07:47:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j3e0ugh1b1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/posters/54236-one-million-yen-girl-0-2000-0-3000-crop.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-X7U40kAE6YUhnNO6PMJiD/s2IfHi8mbc/4ybLPUuLGE="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/54236-one-million-yen-girl-0-2000-0-3000-crop.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\54236-one-million-yen-girl-0-2000-0-3000-crop.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "905746"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"X7U40kAE6YUhnNO6PMJiD/s2IfHi8mbc/4ybLPUuLGE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 20 May 2025 07:47:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-X7U40kAE6YUhnNO6PMJiD/s2IfHi8mbc/4ybLPUuLGE="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/a-separation.3iciqonpj9.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\a-separation.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3l8KX8FCWNyShBkfuaVGkz6N+lmirHg0ib9YUlYU4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:37:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3iciqonpj9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/posters/a-separation.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3l8KX8FCWNyShBkfuaVGkz6N+lmirHg0ib9YUlYU4U="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/a-separation.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\a-separation.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3l8KX8FCWNyShBkfuaVGkz6N+lmirHg0ib9YUlYU4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:37:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3l8KX8FCWNyShBkfuaVGkz6N+lmirHg0ib9YUlYU4U="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/atonment.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\atonment.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sw0t6b1wuCCgTbBWVnB6PU5ygYkNvRNImI5hTUlSD78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:14:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sw0t6b1wuCCgTbBWVnB6PU5ygYkNvRNImI5hTUlSD78="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/atonment.lq121zn8bj.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\atonment.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33648"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sw0t6b1wuCCgTbBWVnB6PU5ygYkNvRNImI5hTUlSD78=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:14:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lq121zn8bj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/posters/atonment.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sw0t6b1wuCCgTbBWVnB6PU5ygYkNvRNImI5hTUlSD78="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/before-sunrise.9liqqk32ki.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\before-sunrise.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nbpHsJmqQLFVFPmrrxVAa+jcnk84jt8kGeluyFx+AuI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9liqqk32ki"
+        },
+        {
+          "Name": "label",
+          "Value": "images/posters/before-sunrise.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nbpHsJmqQLFVFPmrrxVAa+jcnk84jt8kGeluyFx+AuI="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/before-sunrise.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\before-sunrise.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "610775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nbpHsJmqQLFVFPmrrxVAa+jcnk84jt8kGeluyFx+AuI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nbpHsJmqQLFVFPmrrxVAa+jcnk84jt8kGeluyFx+AuI="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/goodbye-julia.id1ujmpjm0.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\goodbye-julia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ikIs7xp3czPKRJM4eM9o9CmnACSTcpiBLPSHi/YE/xg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:48:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "id1ujmpjm0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/posters/goodbye-julia.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ikIs7xp3czPKRJM4eM9o9CmnACSTcpiBLPSHi/YE/xg="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/goodbye-julia.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\goodbye-julia.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "78606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ikIs7xp3czPKRJM4eM9o9CmnACSTcpiBLPSHi/YE/xg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 19:48:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ikIs7xp3czPKRJM4eM9o9CmnACSTcpiBLPSHi/YE/xg="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/la-la-land.5zw2jgvcjm.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\la-la-land.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "619286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTY8thHwN8N5Ma1M+vcRd3XFV3g1GwLXs6f6bkA45V4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:23:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5zw2jgvcjm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/posters/la-la-land.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTY8thHwN8N5Ma1M+vcRd3XFV3g1GwLXs6f6bkA45V4="
+        }
+      ]
+    },
+    {
+      "Route": "images/posters/la-la-land.jpg",
+      "AssetFile": "G:\\ITI\\Backend\\API\\Project\\MyProject\\Backend\\wwwroot\\images\\posters\\la-la-land.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "619286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cTY8thHwN8N5Ma1M+vcRd3XFV3g1GwLXs6f6bkA45V4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 22 May 2025 18:23:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cTY8thHwN8N5Ma1M+vcRd3XFV3g1GwLXs6f6bkA45V4="
+        }
+      ]
+    }
+  ]
 }

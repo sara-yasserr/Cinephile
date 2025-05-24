@@ -1,9 +1,6 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
-using LetterboxdProject.Models;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace LetterboxdProject.AccountDTOs
+namespace CinephileProject.Models
 {
     public class User
     {
@@ -26,11 +23,6 @@ namespace LetterboxdProject.AccountDTOs
 
         public DateTime JoinDate { get; set; } = DateTime.UtcNow;
         public DateTime? LastLogin { get; set; }
-        [JsonIgnore]
-        public virtual List<Watchlist> Watchlist { get; set; }
-        [JsonIgnore]
-        public virtual List<Watched> WatchedFilms { get; set; }
-        [JsonIgnore]
-        public virtual List<Rating> Ratings { get; set; }
+        public virtual List<Booking> Bookings { get; set; } = new List<Booking>();
     }
 }

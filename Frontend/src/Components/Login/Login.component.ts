@@ -1,32 +1,34 @@
 import { Component, OnInit } from '@angular/core';
-import { AccountApiServiceService } from '../../../Services/Account-api-service.service';
+import { AuthApiService } from '../../../services/User/AuthApi.service';
+import { Router, RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-Login',
-  standalone :true,
-  imports: [FormsModule,CommonModule],
-  templateUrl: './Login.component.html',
-  styleUrls: ['./Login.component.css']
+  selector: 'app-login',
+  imports:[FormsModule,CommonModule,RouterModule],
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
  username = '';
-  password = '';
-  constructor(private accountApiSevice:AccountApiServiceService) { }
-
+ password = '';
+  constructor(private authApi:AuthApiService,private router:Router) { }
+ 
   ngOnInit() {
   }
-
   onSubmit() {
-    this.accountApiSevice.login(this.username, this.password).subscribe({
+    this.authApi.login(this.username, this.password).subscribe({
       next: (token) => {
-        console.log('Login Success, Token:', token);
+        this.navigateToHome();
         localStorage.setItem('auth_token', token);
       },
       error: (err) => {
         console.error('Login Error:', err);
       }
     });
-}
+           }
+
+           navigateToHome() {
+  this.router.navigate(['/index']);}
 }

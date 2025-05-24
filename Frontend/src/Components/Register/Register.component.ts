@@ -1,41 +1,49 @@
 import { Component, OnInit } from '@angular/core';
-import { AccountApiServiceService } from '../../../Services/Account-api-service.service';
+import { Router, RouterModule } from '@angular/router';
+import { AuthApiService } from '../../../services/User/AuthApi.service';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
-  selector: 'app-Register',
-  imports:[FormsModule,CommonModule],
-  templateUrl: './Register.component.html',
-  styleUrls: ['./Register.component.css']
+  selector: 'app-register',
+  imports:[RouterModule,FormsModule,CommonModule,HttpClientModule],
+  templateUrl: './register.component.html',
+  styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-userData = {
+username = '';
+  password = '';
+  userData = {
     Username: '',
     Email: '',
     Password: ''
   };
   confirmPassword = '';
-  constructor(private accountApiService:AccountApiServiceService) { }
+  constructor(private authService:AuthApiService,private router: Router) { }
+
 
   ngOnInit() {
   }
 
-  passwordsMatch(): boolean {
-    return this.userData.Password === this.confirmPassword;
-  }
+     passwordsMatch(): boolean {
+    return this.userData.Password === this.confirmPassword;}
 
-  onSubmit() {
+
+ onSubmitReg() {
     if (!this.passwordsMatch()) return;
     
-    this.accountApiService.register(
+    this.authService.register(
       this.userData.Username,
       this.userData.Email,
       this.userData.Password
     ).subscribe({
-      next: () => alert('Register success'),
+      next: () =>this.navigateToLogin(),
       error: (err) => console.error('Register error:', err)
     });
-}
+  }
 
+
+  navigateToLogin() {
+  this.router.navigate(['/login']);}
 }

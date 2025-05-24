@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace LetterboxdProject.AccountDTOs
+namespace CinephileProject.AccountDTOs
 {
     public class RegisterDTO
     {

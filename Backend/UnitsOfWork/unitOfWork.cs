@@ -1,13 +1,19 @@
-﻿using LetterboxdProject.AccountDTOs;
-using LetterboxdProject.Models;
-using LetterboxdProject.Repositories;
+﻿using CinephileProject.Models;
+using CinephileProject.Repositories;
 
-namespace LetterboxdProject.UnitsOfWork
+namespace CinephileProject.UnitsOfWork
 {
     public class unitOfWork
     {
         GenericRepositorycs<User> UserRepo;
-        GenericRepositorycs<Film> FilmRepo;
+        GenericRepositorycs<Movie> MovieRepo;
+        GenericRepositorycs<Genre> GenreRepo;
+        GenericRepositorycs<Showtime> ShowtimeRepo;
+        GenericRepositorycs<Seat> SeatRepo;
+        GenericRepositorycs<Screen> ScreenRepo;
+        GenericRepositorycs<Booking> BookingRepo;
+        GenericRepositorycs<Ticket> TicketRepo;
+        GenericRepositorycs<Payment> PaymentRepo;
 
         AppDbContext db;
         public unitOfWork(AppDbContext db)
@@ -15,6 +21,7 @@ namespace LetterboxdProject.UnitsOfWork
             this.db = db;
         }
 
+        #region Properties
         public GenericRepositorycs<User> userRepo
         {
             get
@@ -26,48 +33,105 @@ namespace LetterboxdProject.UnitsOfWork
                 return UserRepo;
             }
         }
-        public GenericRepositorycs<Film> filmRepo
+        public GenericRepositorycs<Movie> movieRepo
         {
             get
             {
-                if (FilmRepo == null)
+                if (MovieRepo == null)
                 {
-                    FilmRepo = new GenericRepositorycs<Film>(db);
+                    MovieRepo = new GenericRepositorycs<Movie>(db);
                 }
-                return FilmRepo;
+                return MovieRepo;
             }
         }
-        //public GenericRepositorycs<CodeSubmission> codeSubmissionRepo
-        //{
-        //    get
-        //    {
-        //        if(CodeSubmissionRepo== null)
-        //        {
-        //            CodeSubmissionRepo = new GenericRepositorycs<CodeSubmission> (db);
-        //        }
-        //        return CodeSubmissionRepo;
-        //    }
-        //}
-        //public GenericRepositorycs<ReviewResult> reviewResultRepo
-        //{
-        //    get
-        //    {
-        //        if(ReviewResultRepo== null)
-        //        {
-        //            ReviewResultRepo = new GenericRepositorycs<ReviewResult> (db);
-        //        }
-        //        return ReviewResultRepo;
-        //    }
-        //}
+        public GenericRepositorycs<Genre> genreRepo
+        {
+            get
+            {
+                if (GenreRepo == null)
+                {
+                    GenreRepo = new GenericRepositorycs<Genre>(db);
+                }
+                return GenreRepo;
+            }
+        }
+        public GenericRepositorycs<Showtime> showtimeRepo
+        {
+            get
+            {
+                if (ShowtimeRepo == null)
+                {
+                    ShowtimeRepo = new GenericRepositorycs<Showtime>(db);
+                }
+                return ShowtimeRepo;
+            }
+        }
+        public GenericRepositorycs<Seat> seatRepo
+        {
+            get
+            {
+                if (SeatRepo == null)
+                {
+                    SeatRepo = new GenericRepositorycs<Seat>(db);
+                }
+                return SeatRepo;
+            }
+        }
+        public GenericRepositorycs<Screen> screenRepo
+        {
+            get
+            {
+                if (ScreenRepo == null)
+                {
+                    ScreenRepo = new GenericRepositorycs<Screen>(db);
+                }
+                return ScreenRepo;
+            }
+        }
+        public GenericRepositorycs<Booking> bookingRepo
+        {
+            get
+            {
+                if (BookingRepo == null)
+                {
+                    BookingRepo = new GenericRepositorycs<Booking>(db);
+                }
+                return BookingRepo;
+            }
+        }
+        public GenericRepositorycs<Ticket> ticketRepo
+        {
+            get
+            {
+                if (TicketRepo == null)
+                {
+                    TicketRepo = new GenericRepositorycs<Ticket>(db);
+                }
+                return TicketRepo;
+            }
+        }
+        public GenericRepositorycs<Payment> paymentRepo
+        {
+            get
+            {
+                if (PaymentRepo == null)
+                {
+                    PaymentRepo = new GenericRepositorycs<Payment>(db);
+                }
+                return PaymentRepo;
+            }
+        }
+        #endregion
 
+        #region methods
         public void SaveChanges()
         {
             db.SaveChanges();
         }
-
         public async Task SaveChangesAsync()
         {
             await db.SaveChangesAsync();
         }
+        #endregion
     }
 }
